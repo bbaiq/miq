@@ -11,6 +11,6 @@
         username: administrator@vsphere.local
         password: !LpdlrK57
         validate_certs: no
-        name: 49a56cb0-3206-11e7-8820-000c29157e9f
+        name: toto
     delegate_to: localhost
     register: facts
