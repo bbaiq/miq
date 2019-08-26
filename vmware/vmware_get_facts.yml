@@ -6,10 +6,10 @@
   tasks:
     - name: Gather VM facts
       vmware_guest_facts:
-        hostname: 10.9.62.70
-        datacenter: Datacenter
+        hostname: 172.18.0.13
+        datacenter: LAB
         username: administrator@vsphere.local
-        password: Redhat1!
+        password: !LpdlrK57
         validate_certs: no
         name: 49a56cb0-3206-11e7-8820-000c29157e9f
     delegate_to: localhost
