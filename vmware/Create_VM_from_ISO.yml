@@ -19,6 +19,7 @@
     - debug: var=memory
     - debug: var=network
     - debug: var=datastore
+    - debug: var=inventory_hostname
     - debug: var=disk
     - debug: var=notes
     - debug: var=manageiq.api_url
