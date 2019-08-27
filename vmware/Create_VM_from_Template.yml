@@ -15,6 +15,7 @@
     - debug: var=esxi_host
     - debug: var=datacenter
     - debug: var=template
+    - debug: var=inventory_hostname
     - debug: var=manageiq.api_url
     - debug: var=manageiq.api_token
     - debug: var=manageiq.service
