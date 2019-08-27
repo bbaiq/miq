@@ -7,7 +7,6 @@
     provider_id: "6"
     max_retries: 9
     retry_interval: 20
-    disk: '80'
 
   tasks:
     - debug: var=vcenter_hostname
