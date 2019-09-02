@@ -1,6 +1,8 @@
 ---
 - hosts: localhost
 
+
+
   vars:
     manageiq:
        api_token: "a030293fdceed4ed6dbdec36276599d6" # a temp token from the automate log from a service run.
