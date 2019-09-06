@@ -124,8 +124,9 @@
 
     - debug: var=token_output
 
-    - debug: var=cf_vm_href
     - set_fact: cf_vm_href="{{ token_output.json.resources[0].href }}"
+
+    - debug: var=cf_vm_href
 
     - name: Create an array of vms
       set_fact:
