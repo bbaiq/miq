@@ -88,7 +88,7 @@
     - debug: var=output
     - name: set the task href
       set_fact:
-        task_url: "{{ output.json.task_href}}"
+        task_url: "{{ output.json.task_href }}"
     - debug: var=task_url
 
     - name: Wait for the refresh to end
@@ -123,7 +123,7 @@
       register: token_output
 
     - debug: var=token_output
-  
+
     - debug: var=cf_vm_href
     - set_fact: cf_vm_href="{{ token_output.json.resources[0].href }}"
 
